@@ -47,7 +47,7 @@ Busca **"DevTools RTSI"** en la pestaña de Extensiones de VS Code.
 
 ### Instalación manual (antes del Marketplace)
 
-1. Ve a la página de [Releases en GitHub](https://github.com/tu-usuario/devtools-rtsi/releases)
+1. Ve a la página de [Releases en GitHub](https://github.com/ferkinzz/devtools-rtsi/releases)
 2. Descarga el archivo `.vsix` de la versión más reciente
 3. En VS Code abre la paleta de comandos (`Ctrl+Shift+P`)
 4. Busca **"Extensions: Install from VSIX..."**
@@ -157,7 +157,7 @@ Search for **"DevTools RTSI"** in the VS Code Extensions tab.
 
 ### Manual installation (before Marketplace listing)
 
-1. Go to the [Releases page on GitHub](https://github.com/tu-usuario/devtools-rtsi/releases)
+1. Go to the [Releases page on GitHub](https://github.com/ferkinzz/devtools-rtsi/releases)
 2. Download the `.vsix` file from the latest release
 3. In VS Code, open the Command Palette (`Ctrl+Shift+P`)
 4. Search for **"Extensions: Install from VSIX..."**
