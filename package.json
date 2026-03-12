@@ -1,20 +1,70 @@
 {
-  "name": "mi-extension",
-  "displayName": "Mi Extension",
-  "description": "Mi herramienta como extensión de VS Code",
+  "name": "devtools-rtsi",
+  "displayName": "DevTools de RTSI (Beta)",
+  "description": "Panel de desarrollo interno — Tasks, Ideas, Notas, Decisiones, Roadmap y AI (Ollama, OpenAI, Claude, Gemini).",
   "version": "0.0.1",
   "publisher": "tu-publisher-id",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/devtools-rtsi"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/devtools-rtsi/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/devtools-rtsi#readme",
+  "icon": "images/icon-128.png",
+  "keywords": [
+    "tasks",
+    "todo",
+    "roadmap",
+    "adr",
+    "ai",
+    "ollama",
+    "openai",
+    "claude",
+    "gemini",
+    "devtools",
+    "productivity",
+    "project management"
+  ],
+  "categories": [
+    "Other",
+    "Notebooks"
+  ],
   "engines": {
     "vscode": "^1.85.0"
   },
-  "categories": ["Other"],
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "devtools-rtsi-container",
+          "title": "DevTools RTSI",
+          "icon": "images/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "devtools-rtsi-container": [
+        {
+          "id": "devtools-rtsi.launcher",
+          "name": "DevTools RTSI"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "devtools-rtsi.launcher",
+        "contents": "Panel de desarrollo interno.\n[$(play) Abrir DevTools RTSI](command:devtools-rtsi.abrir)"
+      }
+    ],
     "commands": [
       {
-        "command": "mi-extension.abrir",
-        "title": "Abrir Mi Extension"
+        "command": "devtools-rtsi.abrir",
+        "title": "Abrir DevTools RTSI"
       }
     ]
   },
