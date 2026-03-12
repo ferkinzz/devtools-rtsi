@@ -3,17 +3,16 @@
   "displayName": "DevTools de RTSI (Beta)",
   "description": "Panel de desarrollo interno — Tasks, Ideas, Notas, Decisiones, Roadmap y AI (Ollama, OpenAI, Claude, Gemini).",
   "version": "0.0.1",
-  "publisher": "tu-publisher-id",
+  "publisher": "RTSI",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tu-usuario/devtools-rtsi"
+    "url": "https://github.com/ferkinzz/devtools-rtsi"
   },
   "bugs": {
-    "url": "https://github.com/tu-usuario/devtools-rtsi/issues"
+    "url": "https://github.com/ferkinzz/devtools-rtsi/issues"
   },
-  "homepage": "https://github.com/tu-usuario/devtools-rtsi#readme",
-  "icon": "images/icon-128.png",
+  "homepage": "https://github.com/ferkinzz/devtools-rtsi#readme",
   "keywords": [
     "tasks",
     "todo",
