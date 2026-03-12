@@ -13,6 +13,7 @@
     "url": "https://github.com/ferkinzz/devtools-rtsi/issues"
   },
   "homepage": "https://github.com/ferkinzz/devtools-rtsi#readme",
+  "icon": "images/icon-128.png",
   "keywords": [
     "tasks",
     "todo",
